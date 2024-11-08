@@ -9,6 +9,48 @@ let projImg1 = "https://res.cloudinary.com/dtvc2pr8i/image/upload/v1718010965/po
 export const ListProjects = [
 
     {
+        id: "elmouyasser",
+        title: "Elmouyasser",
+        subDesc: "Elmouyasser is an e-commerce/e-learning application where users can  buy books and study.",
+        imgUrl: "https://res.cloudinary.com/dtvc2pr8i/image/upload/v1718164465/portfolio/elmouyasser/Screenshot_20220727-212142_kqpte8.webp",
+        imgsUrl: {
+            img1:"https://res.cloudinary.com/dtvc2pr8i/image/upload/v1718164465/portfolio/elmouyasser/Screenshot_20220727-212142_kqpte8.webp",
+            img6:"https://res.cloudinary.com/dtvc2pr8i/image/upload/v1718164464/portfolio/elmouyasser/Screenshot_20220803-222401_gyjpmb.webp",
+            img8:"https://res.cloudinary.com/dtvc2pr8i/video/upload/v1718164979/portfolio/elmouyasser/mobizen_20220828_201046_nkszjm.mp4",
+            img5:"https://res.cloudinary.com/dtvc2pr8i/video/upload/v1718164965/portfolio/elmouyasser/mobizen_20220809_121609_q6qdu9.mp4",
+            img2:"https://res.cloudinary.com/dtvc2pr8i/image/upload/v1718164466/portfolio/elmouyasser/Screenshot_20220806-105620_iyz0lx.webp",
+            img3:"https://res.cloudinary.com/dtvc2pr8i/image/upload/v1718164477/portfolio/elmouyasser/Screenshot_20230103_123209_Gallery_hbidqm.webp",
+            img4:"https://res.cloudinary.com/dtvc2pr8i/image/upload/v1718164476/portfolio/elmouyasser/Screenshot_20221129-010103_ztf3ad.webp",
+            img7:"https://res.cloudinary.com/dtvc2pr8i/image/upload/v1718164475/portfolio/elmouyasser/Screenshot_20221118-005331_q4gcpf.webp",
+            img9:"https://res.cloudinary.com/dtvc2pr8i/image/upload/v1718164473/portfolio/elmouyasser/Screenshot_20221116-183418_mjfx5u.webp",
+            img10:"https://res.cloudinary.com/dtvc2pr8i/image/upload/v1718164471/portfolio/elmouyasser/Screenshot_20220919-121926_t43vcv.webp",
+            img11:"https://res.cloudinary.com/dtvc2pr8i/image/upload/v1718164470/portfolio/elmouyasser/Screenshot_20220809-120613_o4xv7h.webp"
+        },
+        tags: {
+            tags1: "Flutter",
+            tags2: "Provider",
+            tags3: "Rest API",
+        },
+        bnts: {
+              bntWeb: {
+                link: 'https://elmouyassereducation.com/',
+
+                icon: <CgWebsite/>
+            },
+            bntGoolePlay: {
+                link: 'https://play.google.com/store/apps/details?id=com.elmouyasser.education',
+
+                icon: <PiGooglePlayLogo/>
+            },
+        },
+        desc: {
+            line1: "Developed the Mobile Application using Flutter and Provider as a state management approach.",
+            line2: "Ensuring pixel-perfect precision in the transition from design to development.",
+            line3: "Consumed a Restful API."
+        },
+    },
+
+    {
         id: "oustady",
         title: "Oustady",
         subDesc: "Oustady is an application that connects students in Algeria with qualified teachers from primary to university.",
@@ -47,37 +89,6 @@ export const ListProjects = [
         },
         desc: {
             line1: "Contributed to the development of the Mobile Application using Flutter and Provider as a state management approach.",
-            line2: "Ensuring pixel-perfect precision in the transition from design to development.",
-            line3: "Consumed a Restful API."
-        },
-    },
-    {
-        id: "elmouyasser",
-        title: "Elmouyasser",
-        subDesc: "Elmouyasser is an e-commerce/e-learning application where users can  buy books and study.",
-        imgUrl: "https://res.cloudinary.com/dtvc2pr8i/image/upload/v1718164465/portfolio/elmouyasser/Screenshot_20220727-212142_kqpte8.webp",
-        imgsUrl: {
-            img1:"https://res.cloudinary.com/dtvc2pr8i/image/upload/v1718164465/portfolio/elmouyasser/Screenshot_20220727-212142_kqpte8.webp",
-            img6:"https://res.cloudinary.com/dtvc2pr8i/image/upload/v1718164464/portfolio/elmouyasser/Screenshot_20220803-222401_gyjpmb.webp",
-            img8:"https://res.cloudinary.com/dtvc2pr8i/video/upload/v1718164979/portfolio/elmouyasser/mobizen_20220828_201046_nkszjm.mp4",
-            img5:"https://res.cloudinary.com/dtvc2pr8i/video/upload/v1718164965/portfolio/elmouyasser/mobizen_20220809_121609_q6qdu9.mp4",
-            img2:"https://res.cloudinary.com/dtvc2pr8i/image/upload/v1718164466/portfolio/elmouyasser/Screenshot_20220806-105620_iyz0lx.webp",
-            img3:"https://res.cloudinary.com/dtvc2pr8i/image/upload/v1718164477/portfolio/elmouyasser/Screenshot_20230103_123209_Gallery_hbidqm.webp",
-            img4:"https://res.cloudinary.com/dtvc2pr8i/image/upload/v1718164476/portfolio/elmouyasser/Screenshot_20221129-010103_ztf3ad.webp",
-            img7:"https://res.cloudinary.com/dtvc2pr8i/image/upload/v1718164475/portfolio/elmouyasser/Screenshot_20221118-005331_q4gcpf.webp",
-            img9:"https://res.cloudinary.com/dtvc2pr8i/image/upload/v1718164473/portfolio/elmouyasser/Screenshot_20221116-183418_mjfx5u.webp",
-            img10:"https://res.cloudinary.com/dtvc2pr8i/image/upload/v1718164471/portfolio/elmouyasser/Screenshot_20220919-121926_t43vcv.webp",
-            img11:"https://res.cloudinary.com/dtvc2pr8i/image/upload/v1718164470/portfolio/elmouyasser/Screenshot_20220809-120613_o4xv7h.webp"
-        },
-        tags: {
-            tags1: "Flutter",
-            tags2: "Provider",
-            tags3: "Rest API",
-        },
-        bnts: {
-        },
-        desc: {
-            line1: "Developed the Mobile Application using Flutter and Provider as a state management approach.",
             line2: "Ensuring pixel-perfect precision in the transition from design to development.",
             line3: "Consumed a Restful API."
         },
