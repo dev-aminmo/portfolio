@@ -23,8 +23,8 @@ export const ListOtherProjects = [
             },
         },
         desc: {
-            line1: "-Implementing and testing the max-sum algorithm using Java, JavaFx, Jade and OpenStreetMap",
-            line2: "-The max-sum algorithm to determine the optimal decisions with minimal number of messages passed between the agents.",
+            line1: "- Implementing and testing the max-sum algorithm using Java, JavaFx, Jade and OpenStreetMap",
+            line2: "- The max-sum algorithm to determine the optimal decisions with minimal number of messages passed between the agents.",
   
         },
 
