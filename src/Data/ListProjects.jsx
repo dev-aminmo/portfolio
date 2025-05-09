@@ -7,46 +7,133 @@ import { CgWebsite } from "react-icons/cg";
 let projImg1 = "https://res.cloudinary.com/dtvc2pr8i/image/upload/v1718010965/portfolio/oustady/1_w4tocx.webp";
 
 export const ListProjects = [
+        {
+            id: "elmouyasser",
+            title: "Elmouyasser",
+            subDesc: "Elmouyasser is an e-commerce/e-learning application where users can  buy books and learn.",
+            imgUrl: "https://res.cloudinary.com/dtvc2pr8i/image/upload/v1718164465/portfolio/elmouyasser/Screenshot_20220727-212142_kqpte8.webp",
+            imgsUrl: {
+                img1:"https://res.cloudinary.com/dtvc2pr8i/image/upload/v1718164465/portfolio/elmouyasser/Screenshot_20220727-212142_kqpte8.webp",
+                img6:"https://res.cloudinary.com/dtvc2pr8i/image/upload/v1718164464/portfolio/elmouyasser/Screenshot_20220803-222401_gyjpmb.webp",
+                img8:"https://res.cloudinary.com/dtvc2pr8i/video/upload/v1718164979/portfolio/elmouyasser/mobizen_20220828_201046_nkszjm.mp4",
+                img5:"https://res.cloudinary.com/dtvc2pr8i/video/upload/v1718164965/portfolio/elmouyasser/mobizen_20220809_121609_q6qdu9.mp4",
+                img2:"https://res.cloudinary.com/dtvc2pr8i/image/upload/v1718164466/portfolio/elmouyasser/Screenshot_20220806-105620_iyz0lx.webp",
+                img3:"https://res.cloudinary.com/dtvc2pr8i/image/upload/v1718164477/portfolio/elmouyasser/Screenshot_20230103_123209_Gallery_hbidqm.webp",
+                img4:"https://res.cloudinary.com/dtvc2pr8i/image/upload/v1718164476/portfolio/elmouyasser/Screenshot_20221129-010103_ztf3ad.webp",
+                img7:"https://res.cloudinary.com/dtvc2pr8i/image/upload/v1718164475/portfolio/elmouyasser/Screenshot_20221118-005331_q4gcpf.webp",
+                img9:"https://res.cloudinary.com/dtvc2pr8i/image/upload/v1718164473/portfolio/elmouyasser/Screenshot_20221116-183418_mjfx5u.webp",
+                img10:"https://res.cloudinary.com/dtvc2pr8i/image/upload/v1718164471/portfolio/elmouyasser/Screenshot_20220919-121926_t43vcv.webp",
+                img11:"https://res.cloudinary.com/dtvc2pr8i/image/upload/v1718164470/portfolio/elmouyasser/Screenshot_20220809-120613_o4xv7h.webp"
+            },
+            tags: {
+                tags1: "Flutter",
+            },
+            bnts: {
+                bntGoolePlay: {
+                    link: 'https://play.google.com/store/apps/details?id=com.elmouyasser.education',
 
-    {
-        id: "elmouyasser",
-        title: "Elmouyasser",
-        subDesc: "Elmouyasser is an e-commerce/e-learning application where users can  buy books and study.",
-        imgUrl: "https://res.cloudinary.com/dtvc2pr8i/image/upload/v1718164465/portfolio/elmouyasser/Screenshot_20220727-212142_kqpte8.webp",
-        imgsUrl: {
-            img1:"https://res.cloudinary.com/dtvc2pr8i/image/upload/v1718164465/portfolio/elmouyasser/Screenshot_20220727-212142_kqpte8.webp",
-            img6:"https://res.cloudinary.com/dtvc2pr8i/image/upload/v1718164464/portfolio/elmouyasser/Screenshot_20220803-222401_gyjpmb.webp",
-            img8:"https://res.cloudinary.com/dtvc2pr8i/video/upload/v1718164979/portfolio/elmouyasser/mobizen_20220828_201046_nkszjm.mp4",
-            img5:"https://res.cloudinary.com/dtvc2pr8i/video/upload/v1718164965/portfolio/elmouyasser/mobizen_20220809_121609_q6qdu9.mp4",
-            img2:"https://res.cloudinary.com/dtvc2pr8i/image/upload/v1718164466/portfolio/elmouyasser/Screenshot_20220806-105620_iyz0lx.webp",
-            img3:"https://res.cloudinary.com/dtvc2pr8i/image/upload/v1718164477/portfolio/elmouyasser/Screenshot_20230103_123209_Gallery_hbidqm.webp",
-            img4:"https://res.cloudinary.com/dtvc2pr8i/image/upload/v1718164476/portfolio/elmouyasser/Screenshot_20221129-010103_ztf3ad.webp",
-            img7:"https://res.cloudinary.com/dtvc2pr8i/image/upload/v1718164475/portfolio/elmouyasser/Screenshot_20221118-005331_q4gcpf.webp",
-            img9:"https://res.cloudinary.com/dtvc2pr8i/image/upload/v1718164473/portfolio/elmouyasser/Screenshot_20221116-183418_mjfx5u.webp",
-            img10:"https://res.cloudinary.com/dtvc2pr8i/image/upload/v1718164471/portfolio/elmouyasser/Screenshot_20220919-121926_t43vcv.webp",
-            img11:"https://res.cloudinary.com/dtvc2pr8i/image/upload/v1718164470/portfolio/elmouyasser/Screenshot_20220809-120613_o4xv7h.webp"
+                    icon: <PiGooglePlayLogo/>
+                },
+            },
+            desc: {
+                line1: "Developed the Mobile Application using Flutter and Provider as a state management approach.",
+                line2: "Ensuring pixel-perfect precision in the transition from design to development.",
+                line3: "Consumed a Restful API."
+            },
         },
+       {
+            id: "Delivoc",
+            title: "Delivoc",
+            subDesc: "Delivoc is a revolutionary new app that connects senders with travelers, allowing for a new way to ship items at the best rates possible with high-efficiency service.",
+             imgUrl: "https://res.cloudinary.com/dtvc2pr8i/image/upload/v1746755416/portfolio/delivoc/unnamed_tg3pui.webp",
+             imgsUrl: {
+                img1:"https://res.cloudinary.com/dtvc2pr8i/image/upload/v1746755416/portfolio/delivoc/unnamed_tg3pui.webp",
+                img2:"https://res.cloudinary.com/dtvc2pr8i/image/upload/v1746755419/portfolio/delivoc/unnamed_1_kdlwsr.webp",
+                img3:"https://res.cloudinary.com/dtvc2pr8i/image/upload/v1746755417/portfolio/delivoc/unnamed_2_yq8jef.webp",
+                img4:"https://res.cloudinary.com/dtvc2pr8i/image/upload/v1746755405/portfolio/delivoc/IMG_1034_ccamts.png",
+
+                },
+            tags: {
+                tags1: "Flutter",
+            },
+            bnts: {
+                 bntAppStor: {
+                               link: 'https://apps.apple.com/app/delivoc/id1641010103',
+
+                               icon: <FaAppStore/>
+                           },
+                bntGoolePlay: {
+                    link: 'https://play.google.com/store/apps/details?id=com.app.delivoc',
+
+                    icon: <PiGooglePlayLogo/>
+                },
+
+
+            },
+            desc: {
+            },
+        },
+    {
+        id: "arabyati",
+        title: "Arabyati",
+        subDesc: "Arabiyati is an innovative educational tool aimed at teaching Arabic to non-native speakers. The app facilitates language learning through a variety of interactive activities and lessons that encompass different aspects of the language.",
+        imgUrl: "https://res.cloudinary.com/dtvc2pr8i/image/upload/v1746756098/portfolio/arabyati/unnamed_6_noeu4j.webp",
+         imgsUrl: {
+            img1:"https://res.cloudinary.com/dtvc2pr8i/image/upload/v1746756098/portfolio/arabyati/unnamed_6_noeu4j.webp",
+            img2:"https://res.cloudinary.com/dtvc2pr8i/image/upload/v1746756096/portfolio/arabyati/unnamed_3_qw7wut.webp",
+            img3:"hhttps://res.cloudinary.com/dtvc2pr8i/image/upload/v1746756098/portfolio/arabyati/unnamed_4_o4unm7.webp",
+            img4:"https://res.cloudinary.com/dtvc2pr8i/image/upload/v1746756099/portfolio/arabyati/unnamed_5_nw5jaq.webp",
+
+            },
         tags: {
             tags1: "Flutter",
-            tags2: "Provider",
-            tags3: "Rest API",
         },
         bnts: {
-              bntWeb: {
-                link: 'https://elmouyassereducation.com/',
+             bntAppStor: {
+                           link: 'https://apps.apple.com/app/arabyati/id6740172110',
 
-                icon: <CgWebsite/>
-            },
+                           icon: <FaAppStore/>
+                       },
             bntGoolePlay: {
-                link: 'https://play.google.com/store/apps/details?id=com.elmouyasser.education',
+                link: 'https://play.google.com/store/apps/details?id=com.arabiyati',
 
                 icon: <PiGooglePlayLogo/>
             },
+
+
         },
         desc: {
-            line1: "Developed the Mobile Application using Flutter and Provider as a state management approach.",
-            line2: "Ensuring pixel-perfect precision in the transition from design to development.",
-            line3: "Consumed a Restful API."
+        },
+    },
+   {
+        id: "tripitizi",
+        title: "Tripitizi",
+        subDesc: "Simplify your travels with Tripitizi, the AI-powered app that optimizes your time and personalizes your experiences, Adjust your itineraries, save your favorite places and receive suggestions adapted to your travel style.",
+        imgUrl: "https://res.cloudinary.com/dtvc2pr8i/image/upload/v1746756130/portfolio/tripitizi/unnamed_9_ziuyvc.webp",
+         imgsUrl: {
+            img1:"https://res.cloudinary.com/dtvc2pr8i/image/upload/v1746756128/portfolio/tripitizi/unnamed_7_wngfka.webp",
+            img2:"https://res.cloudinary.com/dtvc2pr8i/image/upload/v1746756121/portfolio/tripitizi/unnamed_8_xkrczq.webp",
+            img3:"https://res.cloudinary.com/dtvc2pr8i/image/upload/v1746756130/portfolio/tripitizi/unnamed_9_ziuyvc.webp",
+
+            },
+        tags: {
+            tags1: "Flutter",
+        },
+        bnts: {
+             bntAppStor: {
+                           link: 'https://apps.apple.com/dz/app/tripitizi/id6450890442',
+
+                           icon: <FaAppStore/>
+                       },
+            bntGoolePlay: {
+                link: 'https://play.google.com/store/apps/details?id=com.tripitizi.app',
+
+                icon: <PiGooglePlayLogo/>
+            },
+
+
+        },
+        desc: {
         },
     },
 
@@ -71,11 +158,6 @@ export const ListProjects = [
             tags3: "Rest API",
         },
         bnts: {
-            bntWeb: {
-                link: 'https://oustady.net',
-
-                icon: <CgWebsite/>
-            },
             bntGoolePlay: {
                 link: 'https://play.google.com/store/apps/details?id=com.oustudy.app',
 
@@ -205,15 +287,10 @@ export const ListProjects = [
             tags4: "Laravel"
         },
         bnts: {
-
-            // bntGithub: {
-            //     link: 'https://github.com/MezianeKhalil/myBallot_app',
-            //     icon: <FaGithub/>
-            // },
-            bntGithub2: {
-                link: 'https://github.com/dev-aminmo/myballot-api',
-                icon: <FaGithub/>
-            },
+         bntGithub: {
+                        link: 'https://github.com/dev-aminmo/myballot-api',
+                        icon: <FaGithub/>
+                    },
            
         },
         desc: {      
